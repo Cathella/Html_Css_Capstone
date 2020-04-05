@@ -22,8 +22,8 @@
   color: #272a31;
 }
 
-header {
-  /* z-index: 10000; */
+body {
+  background: transparent;
 }
 
 ul {
@@ -80,6 +80,7 @@ h2 {
 .main-nav {
   font-size: 0.8em;
   box-shadow: 0 3px 8px #ddd;
+  position: relative;
 }
 
 .maiv {
@@ -131,26 +132,21 @@ h2 {
   flex-wrap: wrap;
 }
 
-.speaker {
-  width: 50%;
-}
-
-.profile {
-  width: 40%;
-}
-
 .details {
   width: 60%;
 }
 
 .intro {
   padding: 6% 0 10% 0;
+  background: url('/img/textbg.jpg');
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/img/textbg.jpg');
+  background-size: cover;
 }
 
 .desc {
   width: 50%;
-  border: 2px solid #fff;
-  background-color: #d3d3d3;
+  border: 2px solid #d3d3d3;
+  background-color: transparent;
   padding: 1.5% 2%;
   font-size: 0.8em;
   line-height: 1.4;
@@ -181,7 +177,8 @@ h2 {
   padding: 3% 0;
 }
 
-.program h3 span {
+.program h3 span,
+.speakers h3 span {
   padding-bottom: 1%;
   border-bottom: 1px solid #ec5242;
   color: #d3d3d3;
@@ -201,4 +198,41 @@ h2 {
 
 .see-all {
   margin: 7% 0 2% 0;
+}
+
+#clipped-title1 {
+  background: url('/img/textbg.jpg') no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#clipped-title1 h1 {
+  -webkit-transition: text-shadow 1s ease;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.speakers {
+  padding: 6% 0;
+}
+
+.speakers h3 {
+  text-align: center;
+  padding: 0 0 6% 0;
+}
+
+.speakers h3 span {
+  color: #272a31;
+}
+
+.speaker {
+  margin: 3% 1%;
+  width: 48%;
+}
+
+.profile {
+  background-color: #ec5242;
+  margin-right: 4%;
+  width: 35%;
 }
