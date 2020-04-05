@@ -21,7 +21,7 @@
 }
 
 header {
-  z-index: 10000;
+  /* z-index: 10000; */
 }
 
 ul {
@@ -36,6 +36,7 @@ h1 {
   line-height: 1.1;
   letter-spacing: -2px;
   padding: 0 0 2% 0;
+  color: #ec5242;
 }
 
 h2 {
@@ -139,10 +140,7 @@ h2 {
 }
 
 .intro {
-  padding: 6% 0;
-  /* background-color: antiquewhite; */
-  /* background-color: #d3d3d3; */
-  /* margin-top: 7px; */
+  padding: 6% 0 10% 0;
 }
 
 .desc {
@@ -158,4 +156,50 @@ h2 {
   font-family: 'Cocogoose-Bold';
   text-transform: uppercase;
   margin-top: 3%;
+}
+
+.program {
+  background-color: #272a31;
+  padding: 6% 0;
+}
+
+.program h3,
+.program p {
+  color: #d3d3d3;
+}
+
+.program h4 {
+  color: #ec5242;
+}
+
+.program h3 {
+  padding: 3% 0;
+}
+
+.program h3 span {
+  padding-bottom: 1%;
+  border-bottom: 1px solid #ec5242;
+  color: #d3d3d3;
+}
+
+.card {
+  background: rgba(255, 255, 255, .2);
+  margin: 0 1px;
+  padding: 2%;
+}
+
+.card p {
+  font-size: .8em;
+  line-height: 1.7;
+  padding: 3% 0;
+}
+
+.see-all {
+  margin: 7% 0 2% 0;
+}
+
+.see-all a {
+  color: #d3d3d3;
+  text-transform: uppercase;
+  font-size: .8em;
 }
