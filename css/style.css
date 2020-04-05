@@ -96,6 +96,7 @@ h2 {
 .pro,
 .peak,
 .speaker,
+.part,
 .foot {
   display: flex;
 }
@@ -158,13 +159,15 @@ h2 {
   margin-top: 3%;
 }
 
-.program {
+.program,
+.partners {
   text-align: center;
   background-color: #272a31;
   padding: 6% 0;
 }
 
 .program h3,
+.partners h3,
 .program p {
   color: #d3d3d3;
 }
@@ -178,7 +181,8 @@ h2 {
 }
 
 .program h3 span,
-.speakers h3 span {
+.speakers h3 span,
+.partners h3 span {
   padding-bottom: 1%;
   border-bottom: 1px solid #ec5242;
   color: #d3d3d3;
@@ -235,4 +239,34 @@ h2 {
   background-color: #ec5242;
   margin-right: 4%;
   width: 35%;
+}
+
+.title {
+  color: #ec5242;
+  font-size: .8em;
+  font-style: italic;
+  margin: .5% 0 2% 0;
+}
+
+.about {
+  font-size: .9em;
+  margin-top: 4%;
+  padding-top: 2%;
+  line-height: 1.4;
+}
+
+.about span {
+  border-top: 2px solid #ddd;
+  padding-top: 2%;
+}
+
+.part {
+  margin: 4% 0 0 0;
+  color: #d3d3d3;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  padding: 4% 0;
 }
