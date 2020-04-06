@@ -97,7 +97,8 @@ h2 {
 .peak,
 .speaker,
 .part,
-.foot {
+.foot,
+.others {
   display: flex;
 }
 
@@ -137,9 +138,9 @@ h2 {
   width: 60%;
 }
 
-.intro {
+.intro,
+.abt-intro {
   padding: 6% 0 10% 0;
-  background: url('/img/textbg.jpg');
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/img/textbg.jpg');
   background-size: cover;
 }
@@ -235,7 +236,8 @@ h2 {
   color: #272a31;
 }
 
-.speaker {
+.speaker,
+.other {
   margin: 3% 1%;
   width: 48%;
 }
@@ -293,4 +295,126 @@ footer {
 
 .b > p:nth-child(1) {
   margin-bottom: 0.8em;
+}
+
+.abt-intro h1 {
+  margin: 0 auto;
+}
+
+.abt-intro .desc {
+  margin: 0 auto 5% auto;
+  width: 80%;
+  line-height: 1.8;
+}
+
+.abt-intro {
+  text-align: center;
+}
+
+.email {
+  display: block;
+  margin-top: 1%;
+}
+
+.dark-footer {
+  background-color: #272a31;
+}
+
+.dark-footer .b p {
+  color: #d3d3d3;
+}
+
+.border-botm {
+  border-bottom: 1px solid #ddd;
+}
+
+.brief {
+  width: 70%;
+  margin: 0 auto 2% auto;
+  text-align: center;
+  font-size: .9em;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.other {
+  text-align: center;
+  height: 250px;
+}
+
+.other h1 {
+  color: #fff;
+  width: 100%;
+  font-size: 30px;
+  padding: 13% 3% 6% 3%;
+}
+
+.learn-btn {
+  background-color: #272a31;
+  color: #d3d3d3;
+  position: relative;
+  padding: 2% 4%;
+  text-decoration: none;
+}
+
+#course1 {
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url('/img/course1.jpg');
+  background-size: cover;
+}
+
+#course2 {
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('/img/course2.jpg');
+  background-size: cover;
+}
+
+.sponsor-pro {
+  text-align: center;
+  margin: 5% auto 0 auto;
+  width: 50%;
+  padding: 2% 0;
+}
+
+.sponsor-pro img {
+  width: 400px;
+}
+
+.step {
+  text-align: center;
+  padding: 1%;
+  border-radius: 20px;
+  width: 50%;
+  margin: 0 auto 3% auto;
+}
+
+.step span,
+.price {
+  color: #ec5242;
+  font-weight: bold;
+}
+
+.plans {
+  text-align: left;
+  width: 60%;
+  margin: 0 auto 6% auto;
+  border: 7px solid #ec5242;
+  border-image: repeating-linear-gradient(48deg, #222b6a, #222b6a 1%, #ee3b23 1%, #ee3b23 3%, #dedede 1%, #dedede 4%) 10;
+}
+
+.yr-plan {
+  display: flex;
+  justify-content: space-between;
+  font-size: .9em;
+}
+
+.yr-plan li {
+  width: 33%;
+  padding: 2% 4%;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+#next {
+  text-align: center;
 }
