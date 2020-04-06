@@ -98,7 +98,8 @@ h2 {
 .speaker,
 .part,
 .foot,
-.others {
+.others,
+.tabs {
   display: flex;
 }
 
@@ -417,4 +418,24 @@ footer {
 
 #next {
   text-align: center;
+}
+
+.tabs a {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  background: #f7f7f7;
+  padding: 1.2% 0;
+  text-decoration: none;
+  margin: 0 2px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+a.active-tab {
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
 }
