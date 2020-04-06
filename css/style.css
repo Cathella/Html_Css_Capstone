@@ -31,7 +31,7 @@ ul {
 }
 
 h1 {
-  font-family: 'Cocogoose-Bold';
+  font-family: 'Cocogoose-Bold', sans-serif;
   width: 60%;
   font-size: 44px;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Cocogoose-Light';
+  font-family: 'Cocogoose-Light', sans-serif;
   font-size: 30px;
   padding: 5% 0 2% 0;
   color: #ec5242;
@@ -154,7 +154,7 @@ h2 {
 }
 
 .intro h3 {
-  font-family: 'Cocogoose-Bold';
+  font-family: 'Cocogoose-Bold', sans-serif;
   text-transform: uppercase;
   margin-top: 3%;
 }
@@ -178,6 +178,11 @@ h2 {
 
 .program h3 {
   padding: 3% 0;
+}
+
+.about span {
+  border-top: 2px solid #ddd;
+  padding-top: 2%;
 }
 
 .program h3 span,
@@ -243,21 +248,16 @@ h2 {
 
 .title {
   color: #ec5242;
-  font-size: .8em;
+  font-size: 0.8em;
   font-style: italic;
-  margin: .5% 0 2% 0;
+  margin: 0.5% 0 2% 0;
 }
 
 .about {
-  font-size: .9em;
+  font-size: 0.9em;
   margin-top: 4%;
   padding-top: 2%;
   line-height: 1.4;
-}
-
-.about span {
-  border-top: 2px solid #ddd;
-  padding-top: 2%;
 }
 
 .part {
@@ -269,4 +269,21 @@ h2 {
 
 footer {
   padding: 4% 0;
+}
+
+.foot {
+  justify-content: space-between;
+}
+
+.foot .a {
+  width: 15%;
+}
+
+.foot .b {
+  width: 78%;
+  font-size: 0.8em;
+}
+
+.b > p:nth-child(1) {
+  margin-bottom: 0.8em;
 }
