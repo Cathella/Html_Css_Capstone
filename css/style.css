@@ -127,6 +127,20 @@ h2 {
   font-size: 0.8em;
 }
 
+.tabs a {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  background: #f7f7f7;
+  padding: 1.2% 0;
+  text-decoration: none;
+  margin: 0 2px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 .maiv ul a {
   text-decoration: none;
 }
@@ -187,6 +201,12 @@ h2 {
   padding-top: 2%;
 }
 
+.step span,
+.price {
+  color: #ec5242;
+  font-weight: bold;
+}
+
 .program h3 span,
 .speakers h3 span,
 .partners h3 span {
@@ -209,6 +229,17 @@ h2 {
 
 .see-all {
   margin: 7% 0 2% 0;
+}
+
+.abt-intro h1 {
+  margin: 0 auto;
+}
+
+.other h1 {
+  color: #fff;
+  width: 100%;
+  font-size: 30px;
+  padding: 13% 3% 6% 3%;
 }
 
 #clipped-title1 {
@@ -298,10 +329,6 @@ footer {
   margin-bottom: 0.8em;
 }
 
-.abt-intro h1 {
-  margin: 0 auto;
-}
-
 .abt-intro .desc {
   margin: 0 auto 5% auto;
   width: 80%;
@@ -333,7 +360,7 @@ footer {
   width: 70%;
   margin: 0 auto 2% auto;
   text-align: center;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .border {
@@ -343,13 +370,6 @@ footer {
 .other {
   text-align: center;
   height: 250px;
-}
-
-.other h1 {
-  color: #fff;
-  width: 100%;
-  font-size: 30px;
-  padding: 13% 3% 6% 3%;
 }
 
 .learn-btn {
@@ -389,12 +409,6 @@ footer {
   margin: 0 auto 3% auto;
 }
 
-.step span,
-.price {
-  color: #ec5242;
-  font-weight: bold;
-}
-
 .plans {
   text-align: left;
   width: 60%;
@@ -406,7 +420,7 @@ footer {
 .yr-plan {
   display: flex;
   justify-content: space-between;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .yr-plan li {
@@ -418,20 +432,6 @@ footer {
 
 #next {
   text-align: center;
-}
-
-.tabs a {
-  display: inline-block;
-  width: 24%;
-  text-align: center;
-  background: #f7f7f7;
-  padding: 1.2% 0;
-  text-decoration: none;
-  margin: 0 2px;
-  border-radius: 3px;
-  border: 1px solid #ddd;
-  font-size: .9em;
-  font-weight: bold;
 }
 
 a.active-tab {
