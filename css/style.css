@@ -244,6 +244,13 @@ h2 {
   background-color: #ec5242;
   margin-right: 4%;
   width: 35%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
 }
 
 .title {
