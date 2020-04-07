@@ -3,8 +3,8 @@
 ![screenshot](./img/Conference.png)
 
 ## Project Description
-This project required that we turn the following design as specified [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) into HTML and CSS using our custom content. We were required to use flexbox and a framework of your choice or grid framework. 
-I mainly used flexbox to create this project in its responsive nature. I defined my own classes to make all the pages appear well on the differnt screen viewports.
+This project required that we convert the following design as specified [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) into HTML and CSS using our custom content. We were required to use flexbox and a framework of your choice or grid framework. 
+I mainly used flexbox to create this project in its responsive nature. I defined my own classes to make all the pages appear responsive on the different screen viewports.
 
 ## How it was Implemented
 
