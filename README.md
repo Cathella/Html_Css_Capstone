@@ -1,6 +1,6 @@
 # Html Capstone Project
 
-![screenshot](./Conference.png)
+![screenshot](./img/Conference.png)
 
 ## Project Description
 This project required that we turn the following design as specified [here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) into HTML and CSS using our custom content. We were required to use flexbox and a framework of your choice or grid framework. 
