@@ -439,3 +439,149 @@ a.active-tab {
   color: #fff;
   border: none;
 }
+
+.table-intro {
+  margin: 3% auto;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 3% 0;
+}
+
+.starter {
+  color: #ee3b23;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+.table-intro h3 {
+  padding-bottom: 2%;
+}
+
+.time-desc {
+  font-size: 0.9em;
+  margin: 0 10%;
+}
+
+.category-secs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-secs ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  width: 35%;
+
+  /* float: right; */
+  padding: 1% 2%;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+
+.time-table {
+  margin-top: 1.5%;
+  font-size: 0.8em;
+  border-radius: 3px;
+}
+
+.time-t1,
+.time-t2,
+.time-t3,
+.time-t4 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 1%;
+}
+
+.time-tab {
+  width: 15%;
+
+  /* background-color: palegoldenrod; */
+}
+
+.reg-tab {
+  width: 85%;
+
+  /* background-color: palegreen; */
+  text-align: center;
+}
+
+.remarks,
+.tbd {
+  width: 45%;
+
+  /* background-color: yellowgreen; */
+  text-align: center;
+}
+
+.tbd {
+  /* background-color: orange; */
+}
+
+.time-t3 {
+  padding: 0 1%;
+  line-height: 35px;
+}
+
+.tab-time1 {
+  width: 15%;
+}
+
+.tab-prof {
+  width: 85%;
+}
+
+.tab-prof div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2dffa;
+  border-radius: 3px;
+  padding: 0 1.5%;
+  height: 35px;
+  line-height: 35px;
+
+  /* padding: 1%; */
+  margin: 1px 0;
+}
+
+.aud {
+  color: #ec5242;
+}
+
+.time-t4 {
+  padding: 0 1%;
+}
+
+.time-t4 .time-tab1 {
+  line-height: 35px;
+}
+
+.tab-sec2 {
+  width: 85%;
+  display: flex;
+}
+
+.open-biz {
+  border-radius: 3px;
+  background-color: #edf0f5;
+  margin: 1px 2px;
+  padding: 1% 2%;
+}
+
+.open-biz h4 {
+  margin-bottom: 2%;
+}
+
+p.list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6%;
+}
+
+#greenish {
+  background-color: #daf0ee;
+}
