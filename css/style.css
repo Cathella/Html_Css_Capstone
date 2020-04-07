@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Cocogoose-Bold';
   src:
-    url('/fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),
-    url('/fonts/cocogoose_pro-trial-webfont.woff') format('woff'),
-    url('/fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
+    url('fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),
+    url('fonts/cocogoose_pro-trial-webfont.woff') format('woff'),
+    url('fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Cocogoose-Light';
   src:
-    url('/fonts/cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
-    url('/fonts/cocogoose_pro_thin-trial-webfont.woff') format('woff'),
-    url('/fonts/Cocogoose\ Pro\ Thin-trial.ttf') format('truetype');
+    url('fonts/cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
+    url('fonts/cocogoose_pro_thin-trial-webfont.woff') format('woff'),
+    url('fonts/Cocogoose\ Pro\ Thin-trial.ttf') format('truetype');
 }
 
 * {
@@ -160,7 +160,7 @@ h2 {
 .intro,
 .abt-intro {
   padding: 6% 0 10% 0;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/img/textbg.jpg');
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('img/textbg.jpg');
   background-size: cover;
 }
 
@@ -253,7 +253,7 @@ h2 {
 }
 
 #clipped-title1 {
-  background: url('/img/textbg.jpg') no-repeat top center;
+  background: url('img/textbg.jpg') no-repeat top center;
   background-size: cover;
   color: #fff;
   -webkit-text-fill-color: transparent;
