@@ -10,7 +10,7 @@ I mainly used flexbox to create this project in its responsive nature. I defined
 
 I considered creating the desktop view first then continued to make it responsive with smaller and bigger screen sizes using define classes from scratch.
 
-Please checkout the live version of the implemented project [here]()
+Please checkout the live version of the implemented project [here](https://raw.githack.com/Cathella/Html_Css_Capstone/main/index.html)
 
 ## Built With
 
