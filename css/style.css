@@ -101,6 +101,7 @@ h2 {
 .others,
 .tabs {
   display: flex;
+  flex-direction: row;
 }
 
 .maiv ul {
@@ -252,7 +253,7 @@ h2 {
   padding: 13% 3% 6% 3%;
 }
 
-#clipped-title1 {
+.clipped-title1 {
   background: url('../img/textbg.jpg') no-repeat top center;
   background-size: cover;
   color: #fff;
@@ -260,7 +261,7 @@ h2 {
   -webkit-background-clip: text;
 }
 
-#clipped-title1 h1 {
+.clipped-title1 h1 {
   -webkit-transition: text-shadow 1s ease;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
@@ -410,12 +411,12 @@ footer {
   text-decoration: none;
 }
 
-#course1 {
+.course1 {
   background-image: linear-gradient(to right, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url('../img/course1.jpg');
   background-size: cover;
 }
 
-#course2 {
+.course2 {
   background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('../img/course2.jpg');
   background-size: cover;
 }
@@ -450,6 +451,7 @@ footer {
 
 .yr-plan {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   font-size: 0.9em;
 }
@@ -465,11 +467,11 @@ footer {
   background-color: #f7f7f7;
 }
 
-#ffffff {
+.ffffff {
   background-color: #fff;
 }
 
-#next {
+.next {
   text-align: center;
 }
 
@@ -504,17 +506,17 @@ a.active-tab {
 
 .category-secs {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
 .category-secs ul {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   font-size: 0.8em;
   width: 35%;
-
-  /* float: right; */
   padding: 1% 2%;
   border-radius: 3px;
   background-color: #f7f7f7;
@@ -531,6 +533,7 @@ a.active-tab {
 .time-t3,
 .time-t4 {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
   padding: 1%;
@@ -568,6 +571,7 @@ a.active-tab {
 
 .tab-prof div {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   background-color: #e2dffa;
   border-radius: 3px;
@@ -594,6 +598,7 @@ a.active-tab {
 .tab-sec2 {
   width: 85%;
   display: flex;
+  flex-direction: row;
 }
 
 .open-biz {
@@ -609,6 +614,7 @@ a.active-tab {
 
 p.list {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding-top: 6%;
 }
@@ -631,6 +637,7 @@ p.list {
   position: relative;
   bottom: 21px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
