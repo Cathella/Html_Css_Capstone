@@ -703,13 +703,19 @@ p.list {
   .card {
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1%;
+    text-align: left;
   }
 
   .card i {
     margin-bottom: 0;
+  }
+
+  .card p {
+    width: 68%;
   }
 
   .see-all a {
@@ -770,5 +776,17 @@ p.list {
 
   h2 {
     margin-top: 5%;
+  }
+
+  .overflow {
+    overflow: auto;
+  }
+
+  .category-secs {
+    display: none;
+  }
+
+  .time-table {
+    min-width: 600px;
   }
 }
