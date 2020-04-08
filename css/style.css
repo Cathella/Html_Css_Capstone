@@ -150,6 +150,10 @@ h2 {
   text-decoration: none;
 }
 
+.maiv ul a:hover {
+  color: #ec5242;
+}
+
 .peak {
   flex-wrap: wrap;
 }
