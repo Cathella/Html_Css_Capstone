@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Cocogoose-Bold';
   src:
-    url('fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),
-    url('fonts/cocogoose_pro-trial-webfont.woff') format('woff'),
-    url('fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
+    url('../fonts/cocogoose_pro-trial-webfont.woff2') format('woff2'),
+    url('../fonts/cocogoose_pro-trial-webfont.woff') format('woff'),
+    url('../fonts/Cocogoose\ Pro-trial.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Cocogoose-Light';
   src:
-    url('fonts/cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
-    url('fonts/cocogoose_pro_thin-trial-webfont.woff') format('woff'),
-    url('fonts/Cocogoose\ Pro\ Thin-trial.ttf') format('truetype');
+    url('../fonts/cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
+    url('../fonts/cocogoose_pro_thin-trial-webfont.woff') format('woff'),
+    url('../fonts/Cocogoose\ Pro\ Thin-trial.ttf') format('truetype');
 }
 
 * {
@@ -411,12 +411,12 @@ footer {
 }
 
 #course1 {
-  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url('/img/course1.jpg');
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.5), rgba(236, 82, 66, 0.5)), url('../img/course1.jpg');
   background-size: cover;
 }
 
 #course2 {
-  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('/img/course2.jpg');
+  background-image: linear-gradient(to right, rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url('../img/course2.jpg');
   background-size: cover;
 }
 
