@@ -53,10 +53,17 @@ h2 {
   margin: 0 auto;
 }
 
+header {
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+
 .top-nav {
   background-color: #272a31;
   padding: 0.8% 0;
   font-size: 0.8em;
+  position: relative;
 }
 
 .logo {
@@ -81,6 +88,7 @@ h2 {
   font-size: 0.8em;
   box-shadow: 0 3px 8px #ddd;
   position: relative;
+  background-color: #fff;
 }
 
 .maiv {
@@ -164,7 +172,7 @@ h2 {
 
 .intro,
 .abt-intro {
-  padding: 6% 0 10% 0;
+  padding: 15% 0 10% 0;
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../img/textbg.jpg');
   background-size: cover;
 }
@@ -285,6 +293,10 @@ h2 {
 
 .speakers h3 span {
   color: #272a31;
+}
+
+h3.add-top-padding {
+  padding-top: 10%;
 }
 
 .speaker,
